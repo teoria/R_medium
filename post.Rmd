@@ -1,0 +1,32 @@
+---
+title: "r_from_gadinho_to_fuderoso"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R: de gadinho até fuderoso !
+
+### Comentário
+
+```{r}
+#Comentário de uma linha
+
+
+# Comentário de várias linhas
+# Comentário de várias linhas
+# Comentário de várias linhas
+
+
+```
+  
+### Imprimindo valores
+
+Para imprimir valores no R é possível usar 
+```{r}
+print("Olar python users")
+cat("Olar python users")
+```
+
