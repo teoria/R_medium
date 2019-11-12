@@ -8,6 +8,8 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ## R: de gadinho até fuderoso !
+https://medium.com/data-hackers/python-from-zero-to-sidekick-eb31dc8d1fa8
+
 
 ### Comentário
 
@@ -29,4 +31,64 @@ Para imprimir valores no R é possível usar
 print("Olar python users")
 cat("Olar python users")
 ```
+
+
+### Variáveis
+
+```{r}
+#String
+nome <- "Ellon"
+sobrenome <- "Musk"
+
+#concatenando string
+paste(nome , sobrenome)
+print("--------------------")
+
+#númerica
+idade <- 10
+idade 
+print("--------------------")
+
+#float
+altura <- 1.70
+altura
+print("--------------------")
+
+#coleção
+empresas <- c( "spaceX" ,"openIA" )
+empresas
+print("--------------------")
+
+#lista
+lista <- list( nome,idade,altura,empresas )
+lista
+
+cat(lista[0])
+cat(lista[1])
+print("--------------------")
+
+lista <- list( nome=nome,idade=idade,altura=altura,empresas=empresas )
+lista
+
+
+
+#matriz
+mdat <- matrix(
+        c(1,2,3, 11,12,13), 
+        nrow = 2, 
+        ncol = 3)
+
+mdat
+
+#3
+mdat[1,2]
+
+```
+
+###Operadores 
+
+```{r}
+1 + 2
+```
+
 
